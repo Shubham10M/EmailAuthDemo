@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "194378303802",
+    "firebase_url": "https://emailauthdemo-cdeff.firebaseio.com",
+    "project_id": "emailauthdemo-cdeff",
+    "storage_bucket": "emailauthdemo-cdeff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194378303802:android:45546e6c1ddf43b871a803",
+        "android_client_info": {
+          "package_name": "com.internshala.emailauthdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194378303802-sj5ej8ku4kr790u77aif7kmf20mh1ki8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVaHIvWQ8-c48BT58Dv-uTXGQvbT37qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194378303802-sj5ej8ku4kr790u77aif7kmf20mh1ki8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

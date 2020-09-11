@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+   <EditText
+       android:id="@+id/etEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="202dp"
+       android:hint=" email"
+       android:inputType="textEmailAddress"
+       android:maxLength="100"
+       android:maxLines="1"
+       android:padding="10dp"
+       android:background="#ffffff"
+       />
+   <EditText
+       android:id="@+id/etPassword"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="20dp"
+       android:hint=" Passward"
+       android:inputType="textPassword"
+       android:maxLength="10"
+       android:maxLines="1"
+       android:padding="10dp"
+       android:background="#ffffff"
+       android:layout_below="@+id/etEmail"
+       />
+
+   <Button
+       android:id="@+id/btnLogin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="@color/colorAccent"
+       android:text="Login"
+       android:textAllCaps="false"
+       android:textStyle="bold"
+      android:layout_below="@+id/etPassword"/>
+
+   <TextView
+       android:id="@+id/registxt"
+       android:layout_width="301dp"
+       android:layout_height="53dp"
+       android:layout_below="@+id/btnLogin"
+       android:layout_centerInParent="true"
+       android:layout_marginLeft="20sp"
+       android:text="Touch to register"
+       android:textSize="28sp"
+       android:layout_marginTop="40sp"/>
+   </RelativeLayout>
